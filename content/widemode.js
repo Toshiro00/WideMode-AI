@@ -22,8 +22,10 @@
     "[data-widemode-site='gemini'] html, [data-widemode-site='gemini'] body { width: 100% !important; margin: 0 !important; padding: 0 !important; }",
     "[data-widemode-site='gemini'] main, [data-widemode-site='gemini'] main > div { width: 100% !important; margin-inline: auto !important; }",
     "[data-widemode-site='gemini'] .chat-window, [data-widemode-site='gemini'] .conversation-container { max-width: var(--widemode-max-width) !important; width: 100% !important; margin-inline: auto !important; }",
-    "[data-widemode-site='chatgpt'] form[data-type='unified-composer'] { width: 100% !important; }",
-    "[data-widemode-site='chatgpt'] form[data-type='unified-composer'] .wcDTda_prosemirror-parent, [data-widemode-site='chatgpt'] form[data-type='unified-composer'] .ProseMirror { width: 100% !important; }",
+    "[data-widemode-site='chatgpt'] form[data-type='unified-composer'] { width: 100% !important; max-width: 100% !important; }",
+    "[data-widemode-site='chatgpt'] form[data-type='unified-composer'] > div { width: 100% !important; max-width: 100% !important; }",
+    "[data-widemode-site='chatgpt'] form[data-type='unified-composer'] .wcDTda_prosemirror-parent { width: 100% !important; flex: 1 1 auto !important; min-width: 0 !important; }",
+    "[data-widemode-site='chatgpt'] form[data-type='unified-composer'] .ProseMirror { width: 100% !important; }",
     "[data-widemode-site='claude'] #root, [data-widemode-site='claude'] #root > div, [data-widemode-site='claude'] main { max-width: 100% !important; width: 100% !important; margin-inline: auto !important; }",
     "[data-widemode-site='claude'] .max-w-2xl, [data-widemode-site='claude'] .max-w-3xl, [data-widemode-site='claude'] .max-w-4xl { max-width: var(--widemode-max-width) !important; width: 100% !important; margin-inline: auto !important; }",
     "[data-widemode-site='claude'] .prose { max-width: var(--widemode-max-width) !important; width: 100% !important; margin-inline: auto !important; }"

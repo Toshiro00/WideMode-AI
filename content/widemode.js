@@ -19,6 +19,7 @@
     "main .message, main .message-content, main .chat-message { max-width: var(--widemode-max-width) !important; width: 100% !important; margin-inline: auto !important; }",
     "main pre, main code { max-width: 100% !important; }",
     "article { max-width: var(--widemode-max-width) !important; width: 100% !important; margin-inline: auto !important; }",
+    "[data-widemode-site='gemini'] html, [data-widemode-site='gemini'] body { width: 100% !important; margin: 0 !important; padding: 0 !important; }",
     "[data-widemode-site='gemini'] main, [data-widemode-site='gemini'] main > div { width: 100% !important; margin-inline: auto !important; }",
     "[data-widemode-site='gemini'] .chat-window, [data-widemode-site='gemini'] .conversation-container { max-width: var(--widemode-max-width) !important; width: 100% !important; margin-inline: auto !important; }",
     "[data-widemode-site='claude'] #root, [data-widemode-site='claude'] #root > div, [data-widemode-site='claude'] main { max-width: 100% !important; width: 100% !important; margin-inline: auto !important; }",

@@ -3,12 +3,17 @@
   "name": "WideMode AI",
   "version": "1.0.0",
   "description": "Make ChatGPT, Gemini, Claude, and other AI chats wider for easier reading.",
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "WideMode AI"
+  },
   "icons": {
     "16": "icons/icon-16.svg",
     "32": "icons/icon-32.svg",
     "48": "icons/icon-48.svg",
     "128": "icons/icon-128.svg"
   },
+  "permissions": ["storage"],
   "content_scripts": [
     {
       "matches": [
